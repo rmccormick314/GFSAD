@@ -1,2 +1,2 @@
-# GFSAD_Crop_Type_Mapping
+# GFSAD
 Software for the GFSAD30 project.
