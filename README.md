@@ -1,2 +1,2 @@
 # GFSAD
-Software for the GFSAD30 project.
+Crop type and crop intensity mapping using HLSL30 and CDL data.
