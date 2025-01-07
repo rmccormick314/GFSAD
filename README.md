@@ -14,6 +14,8 @@ Preprocessing steps for generating training and validation data.
 
 ### Utilities (WIP)
 This section provides additional tools and scripts.
+- **ASD File Parser**: Parses data dumps from handleheld ASD Spectroradiometer.
+- **AppEEARS (WIP)**: Uses the NASA AppEEARS interface to pull data from LPDAAC.
 
 ---
 
