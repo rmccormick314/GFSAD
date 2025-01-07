@@ -4,41 +4,18 @@ Crop type and crop intensity mapping using HLSL30 and CDL data for the GFSAD30 p
 ---
 
 ## Crop Intensity
-This module focuses on analyzing crop growth cycles to determine the number of harvestable crop cycles within a year. Using temporal and spatial data from HLSL30 and CDL, this process identifies crop intensity patterns and assists in agricultural resource management.
+This module focuses on analyzing crop growth cycles to determine the number of harvestable crop cycles within a year. Using temporal and spatial data from HLSL30 and CDL, this process identifies crop intensity patterns.
 
 ## Crop Type
-This module maps different crop types within a region using classification techniques applied to HLSL30 and CDL datasets. It enables detailed agricultural analysis and supports crop monitoring efforts.
+This module maps different crop types within a region using neural network classification techniques applied to HLSL30 and CDL datasets.
 
-## Preprocessing
-The preprocessing step includes: 
-- Cleaning and aligning HLSL30 and CDL datasets.
-- Resampling and reprojection to ensure consistency across datasets.
-- Normalizing data to prepare it for analysis.
+## Preprocessing (WIP)
+The preprocessing step includes.
 
-## Utilities
-This section provides additional tools and scripts to support:
-- Data visualization.
-- Statistical analysis.
-- Model evaluation and validation.
+## Utilities (WIP)
+This section provides additional tools and scripts.
 
 ---
-
-### Setup Instructions
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/rmccormick314/gfsad.git
-   cd gfsad
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Usage
-Run the main script with the required parameters:
-```bash
-python main.py --input /path/to/data --output /path/to/output
-```
 
 ### Data Sources
 - **HLSL30**: Harmonized Landsat and Sentinel-2 data at 30-meter resolution.
