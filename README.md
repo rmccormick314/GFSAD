@@ -9,10 +9,10 @@ This module focuses on analyzing crop growth cycles to determine the number of h
 ### Crop Type
 This module maps different crop types within a region using neural network classification techniques applied to HLSL30 and CDL datasets.
 
-### Preprocessing (WIP)
+### Preprocessing
 Preprocessing steps for generating training and validation data.
 
-### Utilities (WIP)
+### Utilities
 This section provides additional tools and scripts.
 - **ASD File Parser**: Parses data dumps from handleheld ASD Spectroradiometer.
 - **AppEEARS (WIP)**: Uses the NASA AppEEARS interface to pull data from LPDAAC.
